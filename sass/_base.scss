@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+// Breakpoints
+$bp-small: 640px;
+$bp-med: 900px;
+$bp-large: 1200px;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root {
+    --clr-pink: hsl(322, 100%, 66%);
+
+    --clr-very-pale-cyan: hsl(192, 100%, 96%);
+    --clr-very-dark-cyan: hsl(192, 100%, 9%);
+    --clr-grayish-blue: hsl(208, 11%, 55%);
+
+    --font-size: 1.8rem;
+}
+
+body {
+    position: relative;
+    z-index: -2;
+
+    font-family: Open Sans, sans-serif;
+    font-size: var(--font-size);
+
+    & > *:not(:first-child) {
+        transform: translateY(-6.4rem);
+    }
+}
+
+.heading {
+    font-family: Poppins, sans-serif;
+
+    @media only screen and (min-width: $bp-large) {
+        font-size: 3rem;
+    }
+}

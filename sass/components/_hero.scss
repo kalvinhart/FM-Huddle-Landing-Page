@@ -1,0 +1,85 @@
+.hero {
+    padding: 10.4rem 0 4rem;
+
+    background-color: #f8f8f8;
+    background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../../images/bg-hero-mobile.svg);
+    background-size: cover;
+
+    &__container {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 120rem;
+
+        text-align: center;
+
+        @media only screen and (min-width: $bp-large) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            text-align: left;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 30rem;
+        margin-bottom: 4rem;
+
+        color: var(--clr-very-dark-cyan);
+
+        @media only screen and (min-width: $bp-large) {
+            margin-bottom: 0;
+            margin-right: 4rem;
+
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            & > *:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__heading {
+        max-width: 31rem;
+        font-size: 2.8rem;
+
+        @media only screen and (min-width: $bp-med) {
+            max-width: 45rem;
+            font-size: 3.6rem;
+        }
+
+        @media only screen and (min-width: $bp-large) {
+            max-width: 48rem;
+            font-size: 4.2rem;
+        }
+    }
+
+    &__text {
+        max-width: 42rem;
+
+        @media only screen and (min-width: $bp-med) {
+            max-width: 52rem;
+        }
+        
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 45rem;
+
+        @media only screen and (min-width: $bp-large) {
+            max-width: 65rem;
+        }
+    }
+
+    @media only screen and (min-width: $bp-small) {
+        padding: 14.4rem 0 4rem;
+        background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../../images/bg-hero-desktop.svg);
+    }
+}

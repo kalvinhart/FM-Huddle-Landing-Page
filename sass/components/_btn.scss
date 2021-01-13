@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    padding: .5rem 2.5rem;
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: inherit;
+
+    border-radius: 100px;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.1);
+
+    &--header {
+        background-color: white;
+
+        &:hover {
+            color: var(--clr-grayish-blue);
+        }
+    }
+
+    &--pink {
+        padding: 1rem 3rem;
+        background-color: var(--clr-pink);
+        color: white;
+    }
+
+    &:hover {
+        background-image: linear-gradient(rgba(255, 255, 255, .4));
+    }
+}

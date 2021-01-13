@@ -1,0 +1,24 @@
+.header {
+    position: relative;
+    padding: 3rem 0 0;
+    height: 6.4rem;
+    z-index: 100;
+
+    &__container {
+        width: 90%;
+        max-width: 120rem;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 12rem;
+
+        @media only screen and (min-width: $bp-large) {
+            width: 15rem;
+        }
+    }
+}
