@@ -2,7 +2,7 @@
     padding: 10.4rem 0 4rem;
 
     background-color: #f8f8f8;
-    background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../../images/bg-hero-mobile.svg);
+    background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../images/bg-hero-mobile.svg);
     background-size: cover;
 
     &__container {
@@ -80,6 +80,6 @@
 
     @media only screen and (min-width: $bp-small) {
         padding: 14.4rem 0 4rem;
-        background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../../images/bg-hero-desktop.svg);
+        background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../images/bg-hero-desktop.svg);
     }
 }

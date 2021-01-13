@@ -110,8 +110,8 @@ body > *:not(:first-child) {
 .hero {
   padding: 10.4rem 0 4rem;
   background-color: #f8f8f8;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 251, 255, 0.6)), to(rgba(235, 251, 255, 0.6))), url(../../images/bg-hero-mobile.svg);
-  background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../../images/bg-hero-mobile.svg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 251, 255, 0.6)), to(rgba(235, 251, 255, 0.6))), url(../images/bg-hero-mobile.svg);
+  background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../images/bg-hero-mobile.svg);
   background-size: cover;
 }
 
@@ -215,8 +215,8 @@ body > *:not(:first-child) {
 @media only screen and (min-width: 640px) {
   .hero {
     padding: 14.4rem 0 4rem;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 251, 255, 0.6)), to(rgba(235, 251, 255, 0.6))), url(../../images/bg-hero-desktop.svg);
-    background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../../images/bg-hero-desktop.svg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 251, 255, 0.6)), to(rgba(235, 251, 255, 0.6))), url(../images/bg-hero-desktop.svg);
+    background-image: linear-gradient(rgba(235, 251, 255, 0.6), rgba(235, 251, 255, 0.6)), url(../images/bg-hero-desktop.svg);
   }
 }
 
